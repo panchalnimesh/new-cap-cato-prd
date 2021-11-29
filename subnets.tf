@@ -6,7 +6,7 @@ cidr_block = var.pubsubacidr
 
 # public subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -30,7 +30,7 @@ cidr_block = var.pubsubbcidr
 
 # public subnet B cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -53,7 +53,7 @@ cidr_block = var.dbsubacidr
 
 # DB subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -77,7 +77,7 @@ cidr_block = var.dbsubbcidr
 
 # DB subnet B cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -101,7 +101,7 @@ cidr_block = var.appsubacidr
 
 # App subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -124,7 +124,7 @@ cidr_block = var.appsubbcidr
 
 # App subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -146,7 +146,7 @@ cidr_block = var.websubacidr
 
 # App subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
@@ -169,7 +169,7 @@ cidr_block = var.websubbcidr
 
 # App subnet A cidr block iteration found in the terraform.tfvars file
 
-vpc_id = aws_vpc.Old-Cap-Cato-Prd.id
+vpc_id = aws_vpc.New-Cap-Cato-Prd.id
 
 map_public_ip_on_launch = false
 
